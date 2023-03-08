@@ -7,7 +7,7 @@ form.addEventListener('submit', async (event) => {
   
   const searchTerm = input.value.trim();
   
-  if (searchTerm === 'Area') {
+  if (searchTerm === '') {
     return;
   }
   
